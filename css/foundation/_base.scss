@@ -1,0 +1,25 @@
+@use "./variables" as *;
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: $cBgWhite;
+  color: $cBlack;
+  font-family: "Helvetica Neue", Arial, "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.6s ease;
+}
+
+iframe {
+  vertical-align: bottom;
+}

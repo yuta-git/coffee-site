@@ -1,0 +1,7 @@
+@use "../../foundation/" as *;
+
+.p-header-title {
+  color: $cWhite;
+  /* clamp(最小サイズ, 推奨サイズ(vw), 最大サイズ) */
+  font-size: clamp(rem(84), 8.98vw, rem(115));
+}
