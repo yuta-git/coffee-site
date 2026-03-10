@@ -1,0 +1,28 @@
+@use "../../foundation/" as *;
+
+.c-parallax {
+  height: rem(300);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+
+
+  @include mq(md) {
+    height: rem(94);
+  }
+}
+
+.c-parallax__title {
+  color: #fff;
+  font-size: rem(72);
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @include mq(md) {
+    font-size: rem(32);
+  }
+}
