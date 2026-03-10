@@ -1,0 +1,29 @@
+@use "../../foundation/" as *;
+
+.p-header-nav {
+}
+
+.p-header-nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.p-header-nav__item {
+  margin-right: rem(30);
+}
+
+.p-header-nav__item:last-child {
+  margin-right: 0;
+}
+
+.p-header-nav__link {
+  font-size: rem(14);
+  font-weight: bold;
+  color: $cWhite;
+  filter: drop-shadow(1px 1px 2px #121212);
+  transition: all 0.6s ease;
+}
+
+.p-header-nav__link:hover {
+  color: #fb2222;
+}
