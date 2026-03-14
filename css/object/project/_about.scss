@@ -8,6 +8,11 @@
 .p-about__content {
   padding-bottom: rem(190);
   padding-top: rem(90);
+
+  @include mq(md) {
+    padding-bottom: rem(80);
+    padding-top: rem(30);
+  }
 }
 
 .p-about__list {
@@ -15,6 +20,11 @@
   flex-wrap: wrap;
   gap: rem(40);
   margin-bottom: rem(60);
+
+  @include mq(md) {
+    margin-bottom: rem(50);
+    gap: rem(20);
+  }
 }
 
 .p-about__item {
