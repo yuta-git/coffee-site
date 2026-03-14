@@ -2,6 +2,7 @@
 
 // 1. 設定・機能（CSSとしては出力されないもの）を先に読み込む
 @forward "variables";
+@forward "mq";
 @forward "functions";
 @forward "mixin";
 

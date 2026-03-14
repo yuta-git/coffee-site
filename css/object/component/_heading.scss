@@ -1,0 +1,15 @@
+@use "../../foundation/" as *;
+
+.c-heading {
+  font-size: rem(32);
+  font-weight: bold;
+  margin-bottom: rem(70);
+  border-bottom: rem(6) solid $main-color;
+  width: fit-content;
+  margin-inline: auto;
+
+  @include mq(md) {
+    font-size: rem(20);
+    margin-bottom: rem(25);
+  }
+}
