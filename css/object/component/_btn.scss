@@ -1,7 +1,5 @@
 @use "../../foundation/" as *;
 
-
-
 .c-btn {
   position: relative;
   display: inline-block;
@@ -13,7 +11,9 @@
   &::after {
     content: "";
     position: absolute;
-    transition: width 0.3s, height 0.3s;
+    transition:
+      width 0.3s,
+      height 0.3s;
   }
 
   &::before {
@@ -34,7 +34,7 @@
     border-right: 2px solid $main-color;
   }
 
-  &:hover {
+  @include hover {
     &::before,
     &::after {
       width: 100%;

@@ -183,9 +183,11 @@ iframe {
   border-bottom: 2px solid #d10b17;
   border-right: 2px solid #d10b17;
 }
-.c-btn:hover::before, .c-btn:hover::after {
-  width: 100%;
-  height: 100%;
+@media (hover: hover) and (pointer: fine) {
+  .c-btn:hover::before, .c-btn:hover::after {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /* --- style.scss --- */
@@ -390,7 +392,7 @@ iframe {
   width: calc(50% - 1.25rem);
   letter-spacing: 0.1em;
   font-size: 0.875rem;
-  line-height: 2.0714285714;
+  line-height: 2.0714;
 }
 @media screen and (max-width: 768px) {
   .p-about__item {
@@ -400,5 +402,5 @@ iframe {
 
 .p-about__btn {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }/*# sourceMappingURL=style.css.map */
