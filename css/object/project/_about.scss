@@ -1,0 +1,44 @@
+@use "../../foundation/" as *;
+
+.p-about__parallax {
+  background-image: url(../img/about.jpg);
+  background-position: center 70%; // メニュー固有の位置調整
+}
+
+.p-about__content {
+  padding-bottom: rem(190);
+  padding-top: rem(90);
+
+  @include mq(md) {
+    padding-bottom: rem(80);
+    padding-top: rem(30);
+  }
+}
+
+.p-about__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: rem(40);
+  margin-bottom: rem(60);
+
+  @include mq(md) {
+    margin-bottom: rem(50);
+    gap: rem(20);
+  }
+}
+
+.p-about__item {
+  width: calc(50% - rem(20));
+  letter-spacing: 0.1em;
+  font-size: rem(14);
+  line-height: 2.0714;
+
+  @include mq(md) {
+    width: 100%;
+  }
+}
+
+.p-about__btn {
+  text-align: center;
+  margin-top: rem(40);
+}
