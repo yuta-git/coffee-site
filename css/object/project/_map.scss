@@ -1,0 +1,44 @@
+@use "../../foundation/" as *;
+
+.p-map__parallax {
+  background-image: url(../img/location.jpg);
+  background-position: center 70%; // メニュー固有の位置調整
+}
+
+.p-map__content {
+  padding-bottom: rem(170);
+  padding-top: rem(90);
+
+  @include mq(md) {
+    padding-bottom: rem(80);
+    padding-top: rem(30);
+  }
+}
+
+
+.p-map__map-area {
+  width: 100%;
+  height: rem(450);
+  margin-bottom: rem(20);
+
+  @include mq(md) {
+    height: rem(407);
+  }
+}
+
+.p-map__iframe {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(1);
+}
+
+.p-map__info-area {
+  display: flex;
+  flex-direction: column;
+  gap: rem(7);
+}
+
+.p-map__info {
+  font-size: rem(14);
+  line-height: 1.7142;
+}

@@ -1,0 +1,9 @@
+
+// PC の hover だけ有効にするシンプル版
+@mixin hover {
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      @content;
+    }
+  }
+}

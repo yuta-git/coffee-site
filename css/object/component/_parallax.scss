@@ -6,10 +6,12 @@
   background-position: center;
   background-attachment: fixed;
   position: relative;
-
-
+  
+  
   @include mq(md) {
     height: rem(94);
+    // スマホでは背景を固定しない
+    background-attachment: scroll;
   }
 }
 
