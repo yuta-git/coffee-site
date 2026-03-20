@@ -359,6 +359,51 @@ iframe {
 }
 
 /* --- style.scss --- */
+.p-map__parallax {
+  background-image: url(../img/location.jpg);
+  background-position: center 70%;
+}
+
+.p-map__content {
+  padding-bottom: 10.625rem;
+  padding-top: 5.625rem;
+}
+@media screen and (max-width: 768px) {
+  .p-map__content {
+    padding-bottom: 5rem;
+    padding-top: 1.875rem;
+  }
+}
+
+.p-map__map-area {
+  width: 100%;
+  height: 28.125rem;
+  margin-bottom: 1.25rem;
+}
+@media screen and (max-width: 768px) {
+  .p-map__map-area {
+    height: 25.4375rem;
+  }
+}
+
+.p-map__iframe {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(1);
+}
+
+.p-map__info-area {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4375rem;
+}
+
+.p-map__info {
+  font-size: 0.875rem;
+  line-height: 1.7142;
+}
+
+/* --- style.scss --- */
 .p-about__parallax {
   background-image: url(../img/about.jpg);
   background-position: center 70%;
