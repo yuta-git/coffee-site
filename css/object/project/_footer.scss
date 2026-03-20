@@ -1,0 +1,10 @@
+@use "../../foundation/" as *;
+
+.p-footer {
+  
+}
+
+.p-footer__copyright {
+  font-size: rem(10);
+  line-height: calc(11 / 10);
+}

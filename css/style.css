@@ -146,6 +146,14 @@ iframe {
 }
 
 /* --- style.scss --- */
+.l-footer {
+  padding-bottom: 0.625rem;
+}
+
+.l-footer__inner {
+  text-align: center;
+}
+
 /* --- style.scss --- */
 /* --- style.scss --- */
 .l-wrapper {
@@ -356,6 +364,12 @@ iframe {
   flex-basis: 3.125rem;
   flex-shrink: 0;
   text-align: right;
+}
+
+/* --- style.scss --- */
+.p-footer__copyright {
+  font-size: 0.625rem;
+  line-height: 1.1;
 }
 
 /* --- style.scss --- */

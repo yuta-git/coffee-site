@@ -1,1 +1,9 @@
 @use "../foundation/" as *;
+
+.l-footer {
+  padding-bottom: rem(10);
+}
+
+.l-footer__inner {
+  text-align: center;
+}
